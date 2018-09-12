@@ -1,6 +1,7 @@
 package chapter1_operator.sample.words
 
 import java.io.File
+import java.util.regex.Pattern
 
 /**
  * 最近在读英语短文小说，发现了不少生词，顺便记录了一下，然后就有了一下需求；
@@ -18,12 +19,14 @@ private const val filePath = "../../../chapter1/words.txt"
 private data class Word(val spell: String?, val soundmark: String?, val summary: String?)
 
 fun main(args: Array<String>) {
-    getWords()
+    getWords().forEach {
+        println(it)
+    }
 }
 
-private fun getWords(): List<Word> {
+private fun getWords(): List<Word?> {
     val filePath = Word::class.java.getResource(filePath).path
-    val words = mutableListOf<Word>()
+    val words = mutableListOf<Word?>()
     val file = File(filePath)
     if (!file.exists()) {
         return words
@@ -33,10 +36,21 @@ private fun getWords(): List<Word> {
     file.readLines(charset = Charsets.UTF_8).filterNot {
         it.trim().isEmpty() || it.startsWith("#")
     }.forEach {
-
+                words += lineToWord(it)
             }
 
     return words
+}
+
+private inline fun lineToWord(line: String): Word? {
+    // 利用rg来切割字符串  prison	['prɪz(ə)n]	监狱
+    val regex = """(?<g1>([\s\w$])+)\s+((?<g2>\[.+?\])\s)?+(?<g3>.+)"""
+    val p = Pattern.compile(regex)
+    val matcher = p.matcher(line)
+    while (matcher.find()) {
+        return Word(matcher.group("g1").trim(), matcher.group("g2"), matcher.group("g3"))
+    }
+    return null
 }
 
 /**
