@@ -9,7 +9,7 @@ import java.util.regex.Pattern
  * 统计单词数据
  * 需求：
  * 1. 将所有生词按照字母排序
- * 2. 按首字母分组统计生词个数
+ * 2. 按首字母分组统计生词个数 （获取生词数最高的前3组）
  * 3. 找出所有没有音标的生词
  * 4. 找出所有词组
  */
@@ -70,7 +70,7 @@ at once	马上，立刻
  * === 1. 将所有生词按照字母排序  sortedWith ==============
  */
 private fun resolve_one(words: List<Word?>) {
-    println("1. 将所有生词按照字母排序")
+    println("===1. 将所有生词按照字母排序===")
     words.sortedWith(compareBy(String.CASE_INSENSITIVE_ORDER) { it?.spell ?: "" }).forEach {
         println(it?.spell)
     }
@@ -80,10 +80,20 @@ private fun resolve_one(words: List<Word?>) {
  * === 2. 按首字母分组统计生词个数 groupBy ==============
  */
 private fun resolve_two(words: List<Word>) {
-    println("2. 按首字母分组统计生词个数")
+    println("===2. 按首字母分组统计生词个数===")
     words.sortedWith(compareBy(String.CASE_INSENSITIVE_ORDER) { it.spell })
             .groupBy { it.spell[0].toLowerCase() }
             .forEach { key, value ->
                 println("$key: [${value.joinToString { it.spell }}]")
+            }
+
+    println("======2.1. 生词数最高的前三组======")
+    words.sortedWith(compareBy(String.CASE_INSENSITIVE_ORDER) { it.spell })
+            .groupBy { it.spell[0].toLowerCase() }      // Map<String, List<Word>>
+            .map { it }                                 // Entry
+            .sortedByDescending { it.value.size }       // order by Entry.values.size
+            .take(3)
+            .forEach {
+                println("${it.key}: [${it.value.size}]")
             }
 }
