@@ -16,17 +16,17 @@ import java.util.regex.Pattern
 
 private const val filePath = "../../../chapter1/words.txt"
 
-private data class Word(val spell: String?, val soundmark: String?, val summary: String?)
+private data class Word(val spell: String, val soundmark: String?, val summary: String)
 
 fun main(args: Array<String>) {
-    getWords().forEach {
-        println(it)
-    }
+    val listWords = getWords()
+//    resolve_one(listWords)
+    resolve_two(listWords)
 }
 
-private fun getWords(): List<Word?> {
+private fun getWords(): List<Word> {
     val filePath = Word::class.java.getResource(filePath).path
-    val words = mutableListOf<Word?>()
+    val words = mutableListOf<Word>()
     val file = File(filePath)
     if (!file.exists()) {
         return words
@@ -36,26 +36,54 @@ private fun getWords(): List<Word?> {
     file.readLines(charset = Charsets.UTF_8).filterNot {
         it.trim().isEmpty() || it.startsWith("#")
     }.forEach {
-                words += lineToWord(it)
-            }
+        words += lineToWord(it)
+    }
 
     return words
 }
 
-private inline fun lineToWord(line: String): Word? {
+private inline fun lineToWord(line: String): Word {
+    /*
+文件每一行表示一个单词，有单词（可能是词组），有音标，有中文意思，其中，音标可能没有，求获取的正则表达式
+可以分别求出，单词，音标，中文意思；
+
+示例：
+cambridge  [ˈkembrɪdʒ]	剑桥（英国城市）
+cigarette  [sɪgə'ret]	香烟；纸烟
+run across	跑着穿过
+tablet	['tæblɪt]	 碑；药片；写字板；小块；平板电脑
+Albert ['ælbət] 艾伯特（男子名）
+at once	马上，立刻
+     */
     // 利用rg来切割字符串  prison	['prɪz(ə)n]	监狱
-    val regex = """(?<g1>([\s\w$])+)\s+((?<g2>\[.+?\])\s)?+(?<g3>.+)"""
+    val regex = """(?<g1>([\s\w$])+)\s+(?<g2>\[.+?\])?(?<g3>.+)"""
     val p = Pattern.compile(regex)
     val matcher = p.matcher(line)
-    while (matcher.find()) {
+    if (matcher.find()) {
         return Word(matcher.group("g1").trim(), matcher.group("g2"), matcher.group("g3"))
+    } else {
+        throw RuntimeException("line ${line} is error!")
     }
-    return null
 }
 
 /**
- * === 1. 将所有生词按照字母排序 ==============
+ * === 1. 将所有生词按照字母排序  sortedWith ==============
  */
-private fun solve_One() {
+private fun resolve_one(words: List<Word?>) {
+    println("1. 将所有生词按照字母排序")
+    words.sortedWith(compareBy(String.CASE_INSENSITIVE_ORDER) { it?.spell ?: "" }).forEach {
+        println(it?.spell)
+    }
+}
 
+/**
+ * === 2. 按首字母分组统计生词个数 groupBy ==============
+ */
+private fun resolve_two(words: List<Word>) {
+    println("2. 按首字母分组统计生词个数")
+    words.sortedWith(compareBy(String.CASE_INSENSITIVE_ORDER) { it.spell })
+            .groupBy { it.spell[0].toLowerCase() }
+            .forEach { key, value ->
+                println("$key: [${value.joinToString { it.spell }}]")
+            }
 }
