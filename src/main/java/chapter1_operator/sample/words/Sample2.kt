@@ -25,7 +25,8 @@ fun main(args: Array<String>) {
 }
 
 private fun getWords(): List<Word> {
-    val filePath = Word::class.java.getResource(filePath).path
+
+
     val words = mutableListOf<Word>()
     val file = File(filePath)
     if (!file.exists()) {
