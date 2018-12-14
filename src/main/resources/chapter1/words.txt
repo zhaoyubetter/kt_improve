@@ -58,7 +58,7 @@ cousin	['kʌzn] 	堂兄弟姊妹；表兄弟姊妹
 Henry	['henrɪ]	亨利（男子名）
 pregnant	['pregnənt] 	怀孕的
 Riccio 	人名；(英、意)里乔
-wicked	['wɪkɪd] 邪恶的
+wicked	['wɪkɪd] 邪恶的,顽皮的
 scream [skriːm]	尖叫
 axe	[æks]	斧
 
@@ -224,3 +224,14 @@ handle ['hændl] [建] 把手；柄；手感；口实； 处理；操作；运�
 poster ['postɚ] 海报，广告；招贴
 alcohol ['ælkəhɔl] 酒精，乙醇
 fake   [feɪk]  假货；骗子；假动作 ；捏造；
+
+# 威廉莎士比亚
+theatre  [ˈθiətər] 电影院，戏院；戏剧
+playwright  ['pleraɪt] 剧作家
+poet ['poət] 诗人
+modern  ['mɑdɚn]  现代的，近代的；时髦的
+poetry ['poətri] 诗；诗意，诗情；诗歌艺术
+glove   [ɡlʌv]  手套
+serious ['sɪrɪəs] 严肃的，严重的；认真的；庄
+Puritan  ['pjʊrɪtən] 清教徒的;清教徒
+criminal  ['krɪmɪnl] 罪犯，犯罪的
