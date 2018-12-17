@@ -214,7 +214,7 @@ nephew  ['nɛfju] 侄子；外甥
 secretary  ['sɛkrətɛrɪ] 秘书；书记；部长；大臣
 drug [drʌg] 药；毒品；麻醉药；滞销货
 arrest  [ə'rɛst] 逮捕；阻止；吸引
-invest [ɪn'vɛst] 投资；覆盖；耗费；授予；包围;入股
+infvest [ɪn'vɛst] 投资；覆盖；耗费；授予；包围;入股
 cliff [klɪf] 悬崖；绝壁
 moustache [mə'stɑʃ] 小胡子；髭；触须
 film [fɪlm] 电影；薄膜；胶卷；轻烟
@@ -235,3 +235,25 @@ glove   [ɡlʌv]  手套
 serious ['sɪrɪəs] 严肃的，严重的；认真的；庄
 Puritan  ['pjʊrɪtən] 清教徒的;清教徒
 criminal  ['krɪmɪnl] 罪犯，犯罪的
+inn  [ɪn] 客栈；旅馆
+costume [ˈkɑsˌtum] 服装，装束；戏装，剧装
+flight   [flaɪt] 飞行；班机；逃走;迁徙
+fight  [faɪt] 打架；与…打仗，与…斗争；反对…提案
+playgoer  ['pleɡoɚ] 戏迷；爱看戏的人
+wig  [wɪɡ] 假发；要人；头脑 假发；要人；头脑
+ever  ['ɛvɚ] 永远；曾经；究竟
+rehearsal  [rɪ'hɝsl] 排演；预演；练习；训练；叙述
+plague  [pleg]  瘟疫；灾祸；麻烦；讨厌的人
+kingdom ['kɪŋdəm] 王国；界；领域
+earl   [ɜːl] （英）伯爵
+tour  [tʊr] 旅游，旅行；巡回演出
+sonnet ['sɑnɪt] 十四行诗；商籁诗
+sworn [swɔrn] 发过誓的；宣誓过的
+thee  [ði] 你（古英语thou的宾格）
+lodging  ['lɑdʒɪŋ] 寄宿；寄宿处；出租的房间、住房；倒伏
+stormy  ['stɔrmi] 暴风雨的；猛烈的；暴躁的
+court [kɔrt] 法院；球场；朝廷；奉承
+penny ['pɛni]（美）分；便士
+grand [ɡrænd] 宏伟的；豪华的；极重要的
+grief [ɡrif] 悲痛；忧伤；不幸
+absent  [ˈæbsnt;(for v.)əbˈsɛnt] 缺席的；缺少的；心不在焉的；茫然的
