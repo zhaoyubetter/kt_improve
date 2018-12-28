@@ -257,6 +257,7 @@ penny ['pɛni]（美）分；便士
 grand [ɡrænd] 宏伟的；豪华的；极重要的
 grief [ɡrif] 悲痛；忧伤；不幸
 absent  [ˈæbsnt;(for v.)əbˈsɛnt] 缺席的；缺少的；心不在焉的；茫然的
+<<<<<<< HEAD
 underneath [,ʌndɚ'niθ] 在…的下面；在…的形式下；在…的支配下; 在下面；在底下;下面；底部
 mend [mɛnd] 修理，修补；改善；修改
 wicked  ['wɪkɪd] 邪恶的；恶劣的；不道德的；
@@ -298,13 +299,6 @@ ring [rɪŋ]  按铃；敲钟；戒指
 necklace [ˈnɛklɪs] 项链
 brooch [brotʃ]（女用的）胸针，领针
 bracelet [ˈbreslɪt] 手镯；手链
-
-
-
-
-
-
-
-
-
-
+perchance  [pərˈtʃæns]  偶然，恐怕
+shuffle [ˈʃʌfəl]  洗牌;曳脚而行;搬移;移动
+shuffle off 摆脱;脱掉;推开;
