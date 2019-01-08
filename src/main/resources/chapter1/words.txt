@@ -324,4 +324,8 @@ wool  [wʊl] 羊毛；毛线；绒线；
 tangle ['tæŋɡl] 纠纷；混乱状态;缠结；乱作一团
 carpet  ['kɑrpɪt]  在…上铺地毯，把地毯铺在…上；斥责; 地毯；地毯状覆盖物
 punish  ['pʌnɪʃ] 惩罚；严厉对待；贪婪地吃喝; 惩罚
+chessman  ['tʃesmæn] 棋子
+fireplace  [ˈfaɪərpleɪs]  壁炉
+pretend  [prɪˈtɛnd]  装扮;假装，伪装;假称
+
 
