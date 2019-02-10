@@ -344,7 +344,7 @@ nonsense  ['nɑnsɛns] 胡说；废话;荒谬的
 opposite   [ˈɑpəzɪt; ˈɑpəsɪt] 相反的；对面的；对立的
 lily   ['lɪli] 百合花，百合；类似百合花的植物；洁白之物
 wondering  ['wʌndərɪŋ] 疑惑的；觉得奇怪的
-wonder ['wʌndɚ] 惊奇；奇迹；惊愕
+wonder ['wʌndɚ] 惊奇；奇迹；惊愕,想知道
 curtsy  ['kɝtsi] 行屈膝礼
 obey [oʊˈbeɪ] 服从，听从；按照……行动
 sensible  ['sɛnsəbl] 明智的; 通情达理的; 合乎情理的; 意识到的，能感觉到的;
@@ -354,4 +354,34 @@ square [skwɛr]  平方的；正方形的；
 at all （否定句）根本；究竟
 turn round 转身
 knight [naɪt] 骑士，武士；爵士
+jump over 越过,跳过
+shut up 安静、闭嘴
+ought [ɔt] 应该（指道义上有责任）
+ought to 应当
+Beetle [ˈbitl] 甲壳虫;大槌;捶布机
+look round 环顾;观光;仔细察看;举目四望
+insect  [ˈɪnˌsɛkt]  虫，昆虫;卑鄙的人;微贱的人，小人
+calmly  [ˈkɑmlɪ]  平静地;冷静地;沉着地;宁静地
+aloud  [əˈlaʊd] 大声;高声
+snore [snɔr, snor] 打呼噜，打鼾
+oyster [ˈɔɪstɚ] 牡蛎
+thick [θɪk]  浓的，茂密的;厚的，粗大的;稠密的;不透明的,密集的
+crow [kroʊ] 乌鸦;雄鸡的啼声
+shawl  [ʃɔl] 围巾，披肩
+pin [pɪn]  钉;别针，扣针，饰针;大头针;钉住，钉住
+hairbrush [ˈherbrʌʃ]  梳子，发刷
+maid  [med]  少女;女仆，侍女;处女，未婚女子
+backwards   [ˈbækwərdz]  向后的;倒行的;返回的;落后的
+fasten  [ˈfæsn] 系牢，钉牢;
+pity  [ˈpɪti]  怜悯;同情;可惜的事;憾事;
+
+
+
+
+
+
+
+
+
+
 
