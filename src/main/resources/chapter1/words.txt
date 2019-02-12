@@ -374,6 +374,11 @@ maid  [med]  少女;女仆，侍女;处女，未婚女子
 backwards   [ˈbækwərdz]  向后的;倒行的;返回的;落后的
 fasten  [ˈfæsn] 系牢，钉牢;
 pity  [ˈpɪti]  怜悯;同情;可惜的事;憾事;
+knitting  ['nɪtɪŋ] 针织；编织物；编织；皱眉（knit的ing形式）
+still [stɪl] 仍然；更；静止地; 静止的，不动的；寂静的，平静的；
+intelligent  [ɪn'tɛlɪdʒənt] 智能的；聪明的；理解力强的
+conversation  [,kɑnvɚ'seʃən] 交谈，会话；社交；交往，交际；会谈；（人与计算机的）人机对话
+belt  [bɛlt] 带；腰带；地带
 
 
 
