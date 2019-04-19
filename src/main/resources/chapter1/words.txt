@@ -291,7 +291,7 @@ haystack ['hestæk] 干草堆 比喻如大海捞针般难找
 vicar  ['vɪkɚ] 教区牧师，教堂牧师；
 servant ['sɝvənt] 仆人，佣人；公务员；雇工
 baker ['bekɚ] 面包师；面包工人；
-fair [fɛr] 公平的；美丽的; 展览会；市集；美人
+fair [fɛr] 公平的；美丽的; 展览会；市集；美人;白皙的
 jewel ['dʒuəl] 宝石；珠宝
 diamond  ['daɪəmənd] 钻石，金刚石；菱形；方块牌
 ring [rɪŋ]  按铃；敲钟；戒指
@@ -548,9 +548,19 @@ poison ['pɔɪzn] 污染；使中毒，放毒于；败坏；阻碍; 毒药
 I don’t mind if I do 我不介意；
 just right 刚刚好
 icy   ['aɪsi]  冰冷的；冷淡的；结满冰的
+mystery [ˈmɪstri] 秘密，谜；神秘，神秘的事物;秘诀；
+conservatory   [kən'sɝvətɔri] 温室；音乐学校
 
 
-
+#野性的呼唤
+chief  [tʃif] 首领；酋长；主要部分
+kilo ['kilo] 千克
+grandchildren  ['græn'tʃɪldrən] 孙子；孙（女），外孙（女）
+club  [klʌb] 俱乐部，社团；夜总会；棍棒；（扑克牌中的）梅花
+walk up 走上；沿…走
+one in ten thousand 万分之一
+honest  ['ɑnɪst] 诚实的，实在的；可靠的；坦率的
+leash  [liʃ] 皮带；束缚；束缚；用皮带绑住
 
 
 
