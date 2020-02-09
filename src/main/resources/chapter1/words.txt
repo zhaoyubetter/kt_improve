@@ -88,6 +88,12 @@ Alizon	人名
 curse	 [kɜːs]	诅咒
 thirtieth	['θɜ:tɪəθ]	第三十
 clay	[kleɪ]	粘土；泥土
+come out 出现
+go in 参加 放进去
+fall over 摔倒
+go along 前进、进行、支持
+get off 动身；免于受罚；从…下来；脱下
+trial [ˈtraɪəl] 试验；审讯；努力
 
 #歌剧院的精灵
 turn to 转向；求助于；致力于；开始行动
@@ -814,6 +820,21 @@ cloak [kloʊk]（尤指旧时的）披风，斗篷；遮盖物；伪装，幌子
 hang [hæŋ] 悬挂，垂下；装饰；绞死；使悬而未决
 excitable  [ɪkˈsaɪtəbl] 易激动的；易兴奋的；易怒的
 gamble   [ˈɡæmbl] 赌博；打赌；冒险，投机；孤注一掷；冒险假设
+
+#猎犬
+bent [bent] 弯曲的；弯腰的，驼背的
+appointment [əˈpɔɪntmənt] 任命；约定；任命的职位
+shut  [ʃʌt] 关闭；停业；幽禁
+desperate [ˈdespərət] 不顾一切的；令人绝望的；极度渴望的
+ivy [ˈaɪvi] 常春藤
+hound   [haʊnd] 猎犬；追逐者；（非正式）卑劣的人;追猎；烦扰
+exhaustion [ɪɡˈzɔːstʃən] 枯竭；耗尽；精疲力竭
+sight  [saɪt] 视力；景象；眼界；见解; 看见；瞄准
+
+
+
+
+
 
 
 
